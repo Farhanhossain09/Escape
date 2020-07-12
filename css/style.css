@@ -1,0 +1,204 @@
+@font-face{
+	src:url(../fonts/BrandonGrotesque-Bold.ttf);
+	font-family: BrandonGrotesque-Bold;
+}
+@font-face{
+	src:url(../fonts/BrandonGrotesque-Light.ttf);
+	font-family: BrandonGrotesque-Light;
+}	
+@font-face{
+	src:url(../fonts/BrandonGrotesque-Medium.ttf);
+	font-family:BrandonGrotesqu-Medium;
+}
+@font-face{
+	src:url(../fonts/BrandonGrotesque-Regular.ttf);
+	font-family;
+}
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	font-family:"BrandonGrotesque";
+	
+}
+/*header start*/
+header{
+	padding-top: 40px;	
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 620px;
+}
+.container{
+	margin: 0 auto; 
+	width: 70%;   
+	overflow: hidden;
+	
+}
+.logo{
+	width: 15%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 80%;
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+	margin:0 15px;
+	padding: 5px 0; 
+	font-family: ;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	border-bottom: 1px solid transparent;
+	transition: .3s ease;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid white;
+}
+
+.hero-content{
+	padding-top: 170px;
+	text-align: center;
+}
+.hero-content h2{
+	font-family: BrandonGrotesque-Light;
+	font-size: 30px;
+	font-weight: 300;
+	color: white;
+}
+.hero-content h1{
+	margin-top: 30px;
+	margin-bottom: 65px;
+	font-family: BrandonGrotesque-bold;
+	font-size: 66px;
+	font-weight: 700;
+	color: white;
+	text-transform: uppercase;
+}
+.hero-content button{
+	width: 235px;
+	height: 60px;
+	font font-family: BrandonGrotesque;
+	font-size:23px;
+	font-weight: 700; 
+	color: #ffffff;
+	background-color: transparent;
+	border:1px solid white;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: .3s;
+}
+.hero-content button:hover{
+	background-color:white; 
+	color:#091b29;
+}
+
+/*header etart*/
+/*web Developments Start*/
+.web-dev{
+	padding: 50px 0px;	
+}
+.container2{
+	margin: 0 auto;
+	width:70%;
+	overflow: hidden;
+}
+.intro{
+	width: 65%;
+	float:left;
+}
+.c_title{
+	font-family: BrandonGrotesque-Light;
+	font-size: 60px;
+	font-weight: 300;
+	color: #222222;
+}
+
+.c_title span{
+	font-family: BrandonGrotesque-Bold;	
+	font-weight: Bold;
+}
+.intro p{
+	margin-top: 30px;
+	font-size: 18px;
+}
+.intro_img{
+	    padding: 50px 0;
+   		 width: 23%;
+    	float: right;
+}
+.intro_img img{
+	width: 100%;
+}
+/*web Developments end*/
+/*identity Start*/
+.identity{
+	padding: 80px 0;
+	background-color: #fafafa;
+
+}
+.identity .intro_img{
+	float: left;
+}
+.intro_img img{
+	width: 100%;
+}
+.identity intro{
+	float: right;
+}
+/*identity end*/
+
+/*service Start*/
+.service{
+	padding: 80px 0;
+}
+.single{
+	margin-bottom: 45px;
+	width: 45%;
+	float: left;
+}
+.s_icon{
+	width: 15%;
+	float: left;
+}
+.s_icon img{
+	width: 100%;
+}
+.s_text{
+	width: 80%;
+	float: right;
+}
+.s_text h3{
+		font-family: BrandonGrotesque-Medium;
+		font-size: 22px;
+		font-weight: 500;
+		color: #222222;
+}
+.s_text p{
+	margin-top: 15px;
+	font-size: 18px;
+	font-weight: 500;
+	color: #2222222b
+	line-height: 20px;
+}
+.single:nth-child(even){
+	margin-left: 3%;
+}
+/*service end*/
